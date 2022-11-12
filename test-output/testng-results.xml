@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30" started-at="2022-09-07T07:21:07Z" finished-at="2022-09-07T07:21:07Z">
+    <groups>
+      <group name="reg">
+        <method signature="Grouping.tc1()[pri:0, instance:com.test.Grouping@35047d03]" name="tc1" class="com.test.Grouping"/>
+        <method signature="Grouping.tc4()[pri:0, instance:com.test.Grouping@35047d03]" name="tc4" class="com.test.Grouping"/>
+      </group> <!-- reg -->
+      <group name="sanity">
+        <method signature="Grouping.tc2()[pri:0, instance:com.test.Grouping@35047d03]" name="tc2" class="com.test.Grouping"/>
+        <method signature="Grouping.tc5()[pri:0, instance:com.test.Grouping@35047d03]" name="tc5" class="com.test.Grouping"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="30" started-at="2022-09-07T07:21:07Z" finished-at="2022-09-07T07:21:07Z">
+      <class name="com.test.Grouping">
+        <test-method status="PASS" signature="tc1()[pri:0, instance:com.test.Grouping@35047d03]" name="tc1" duration-ms="16" started-at="2022-09-07T07:21:07Z" finished-at="2022-09-07T07:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc2()[pri:0, instance:com.test.Grouping@35047d03]" name="tc2" duration-ms="0" started-at="2022-09-07T07:21:07Z" finished-at="2022-09-07T07:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="tc5()[pri:0, instance:com.test.Grouping@35047d03]" name="tc5" duration-ms="0" started-at="2022-09-07T07:21:07Z" finished-at="2022-09-07T07:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method status="PASS" signature="tc4()[pri:0, instance:com.test.Grouping@35047d03]" name="tc4" duration-ms="0" started-at="2022-09-07T07:21:07Z" finished-at="2022-09-07T07:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+      </class> <!-- com.test.Grouping -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
